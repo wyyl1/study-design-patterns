@@ -19,6 +19,11 @@
 ### 1. 策略模式 Strategy Pattern
 > 策略模式定义了算法簇，分别封装起来，让他们之间可以相互替换，此模式让算法的变化独立于使用算法的客户。
 
+![avatar](doc/uml/strategy.jpg)
+
+### 2. 观察者模式
+> 观察者模式定义了对象之间的一对多依赖，这样一来，当一个对象改变状态时，它的所有依赖者都会收到通知并自动更新。
+
 ## 参考资料
 - 《Head First 设计模式》ISBN: 9787508353937
 - [《Head First 设计模式》源码](https://www.wickedlysmart.com/head-first-design-patterns/)
