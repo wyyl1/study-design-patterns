@@ -29,14 +29,14 @@
 
 - 观察者模式提供了一种对象设计，让主题和观察者之间松耦合。
 
+![avatar](doc/uml/observe.svg)
+
 #### 更新策略
 - 推
 - 拉
 
 #### Java 内置的观察者模式
 - extends java.util.Observable
-
-![avatar](doc/uml/observe.svg)
 
 ## 参考资料
 - 《Head First 设计模式》ISBN: 9787508353937
