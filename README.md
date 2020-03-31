@@ -1,5 +1,23 @@
 # 设计模式学习
 
+   * [设计模式学习](#设计模式学习)
+      * [设计原则](#设计原则)
+         * [1. 找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起](#1-找出应用中可能需要变化之处把它们独立出来不要和那些不需要变化的代码混在一起)
+         * [2. 针对接口编程，而不是针对实现编程](#2-针对接口编程而不是针对实现编程)
+         * [3. 多用组合，少用继承](#3-多用组合少用继承)
+         * [4. 为了交互对象之间的松耦合设计而努力](#4-为了交互对象之间的松耦合设计而努力)
+         * [5. 开闭原则](#5-开闭原则)
+            * [实现建议](#实现建议)
+      * [设计模式](#设计模式)
+         * [1. 策略模式 Strategy Pattern](#1-策略模式-strategy-pattern)
+         * [2. 观察者模式 Observe Pattern](#2-观察者模式-observe-pattern)
+            * [更新策略](#更新策略)
+            * [Java 内置的观察者模式](#java-内置的观察者模式)
+            * [观察者模式、发布/订阅模式的区别](#观察者模式发布订阅模式的区别)
+         * [3. 装饰者模式 Decorator](#3-装饰者模式-decorator)
+            * [缺点](#缺点)
+      * [参考资料](#参考资料)
+
 ## 设计原则
 
 ### 1. 找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起
@@ -59,7 +77,7 @@
 
 - [原文： Observer vs Pub-Sub pattern](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
 
-### 装饰者模式 Decorator
+### 3. 装饰者模式 Decorator
 > 动态的将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的代替方案
 
 ![avatar](doc/uml/decorator.svg)
@@ -93,6 +111,7 @@
 - 《Head First 设计模式》作者：弗里曼 Mary Eleanor Wilkins Freeman ISBN: 9787508353937
 - [《Head First 设计模式》源码](https://www.wickedlysmart.com/head-first-design-patterns/)
 - [《Head First 设计模式》源码 Maven 版](https://github.com/wyyl1/Head-First-Design-Patterns-Source)
+- [GitHub 在线生成目录](https://sleepeatcode.com/ghtoc) | [来源](https://github.com/ekalinin/github-markdown-toc)
 
 
 
