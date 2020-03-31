@@ -92,6 +92,11 @@
 ## 参考资料
 - 《Head First 设计模式》作者：弗里曼 Mary Eleanor Wilkins Freeman ISBN: 9787508353937
 - [《Head First 设计模式》源码](https://www.wickedlysmart.com/head-first-design-patterns/)
+- [《Head First 设计模式》源码 Maven 版](https://github.com/wyyl1/Head-First-Design-Patterns-Source)
+
+
+
+
 
 
 
